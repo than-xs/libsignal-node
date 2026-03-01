@@ -1,0 +1,33 @@
+{
+  "name": "@than-xs/libsignal-node",
+  "version": "2.0.5",
+  "description": "Lightweight Signal protocol library for Node.js",
+  "repository": "than-xs/libsignal-node",
+  "main": "index.js",
+  "keywords": [
+    "signal",
+    "signal-protocol",
+    "libsignal",
+    "end-to-end-encryption",
+    "cryptography",
+    "nodejs",
+    "whatsapp",
+    "baileys"
+  ],
+  "license": "GPL-3.0",
+  "files": [
+    "install.js",
+    "index.js",
+    "src/*"
+  ],
+  "dependencies": {
+    "curve25519-js": "^0.0.4",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "protobufjs": "6.8.8"
+  },
+  "devDependencies": {
+    "eslint": "6.0.1"
+  }
+}
